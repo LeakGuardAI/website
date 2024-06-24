@@ -37,8 +37,9 @@ export async function action({
 
         login(newUser, (err) => {
             if (err) throw err;
-            return redirect('/dashboard')
         })
+
+        return redirect('/app/dashboard');
   
       } catch (errors) {
         console.log(errors.errors)
