@@ -1,0 +1,28 @@
+#app {
+    height: 100vh;
+}
+
+#app main {
+    padding: 3rem;
+    overflow-y: scroll;
+}
+
+#app-sidebar {
+    background-color: var(--bg-200);
+    padding: 1rem;
+}
+
+#app-sidebar .nav-link {
+    color: var(--text-100) !important;
+}
+
+/* DASHBOARD */
+#app-dashboard-graphs {
+    display: flex;
+    height: 300px;
+}
+
+#devices #devices-grid > * {
+    width: 100px;
+    height: 100px;
+}
